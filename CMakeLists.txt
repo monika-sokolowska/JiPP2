@@ -7,6 +7,7 @@ add_subdirectory(firstLibCall)
 add_subdirectory(FirstClass)
 add_subdirectory(Struktury_lab4)
 add_subdirectory(Class_lab4)
+add_subdirectory(Class2_lab4)
 
 
 add_subdirectory(matrixLib)
