@@ -2,14 +2,14 @@
 // Created by cynamon on 25/10/2021.
 //
 
-#ifndef JIPP_FIRSTCLASS_H
-#define JIPP_FIRSTCLASS_H
+#ifndef JIPP_CLASS_H
+#define JIPP_CLASS_H
 
 #include <iostream>
 #include <string>
 using namespace std;
 
-class FirstClass {
+class Class {
 private:
     string productName;
     unsigned int price=0;
@@ -17,7 +17,7 @@ private:
     unsigned int amount=0;
     void showDetails();
 public:
-    FirstClass(string productName, unsigned int price, unsigned int weight, unsigned int amount);
+    Class(string productName, unsigned int price, unsigned int weight, unsigned int amount);
 
     void showBasicData();
     void showAllData();
@@ -27,4 +27,4 @@ public:
 };
 
 
-#endif //JIPP_FIRSTCLASS_H
+#endif //JIPP_CLASS_H

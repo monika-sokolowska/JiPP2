@@ -1,7 +1,7 @@
 //
 // Created by cynamon on 25/10/2021.
 //
-#include "../include/FirstClass.h"
+#include "../include/Class.h"
 #include <iostream>
 #include <string>
 
@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    FirstClass product("Pass exam", 10000, 1000, 0);
+    Class product("Pass exam", 10000, 1000, 0);
 
     product.showAllData();
 
