@@ -25,7 +25,7 @@ int main()
 
     cout << "----------------------------------- " << endl;
     cout << "Pole powierzchni prostopadloscianu: " << cuboid1.getArea() << endl;
-
+    cout << "----------------------------------- " << endl;
 
     return 0;
 }
